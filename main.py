@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
-"""Entrypoint for news-image-20261121 v1: copy the built entry.png to /output.
+"""Entrypoint for news-image-20261121 v11: copy the built entry.png to /output.
 
 The image is built ahead of time by draw.py (a local build tool, never
 imported here). This module only verifies the PNG and copies it, using
 the standard library only, so the run is deterministic and offline.
+v11 (branch v11): 29-story killingmachine-style redesign — 13 mains
+(3 large + 10 medium, scenes 55px, no caption bands), 16 briefs,
+12-item DATE CHECK; entry.png 1024x1024, <=1 MiB.
 """
 import hashlib
 import os
